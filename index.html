@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="background.css">
+    <link rel="stylesheet" href="global.css">
+    
+    <title>DateQuest</title>
+</head>
+
+<body>
+  </section>
+    <header>
+        <div class="moveScore">
+            <h3> Falhas: <span class="score" id="score">0</span></h3> 
+        </div>
+    </header>
+    
+    <div class="container">
+        <h1 class="titulo"> Você <span class="win" onclick="isWin()">aceita</span> sair com [Escreva seu nome]? <span class="invisivel"> Então, tem que ganhar. </span></h1>
+        <div class="butoes">
+            <button class="btn btn-1">Sim</button>
+            <button class="btn btn-2" onclick="moveFunc(), playClickSound(0.01, 0.3)">Não</button>
+        </div>
+        
+    </div>
+    <section>
+    <script src="./mousemove.js"></script>
+    <script src="./putaquepariu.js"></script>
+</body>
+</html>
