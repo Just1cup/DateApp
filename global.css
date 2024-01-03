@@ -55,21 +55,6 @@ button {
     border-radius: 5px;
 }
 
-
-
-@media only screen and (max-width: 768px) {
-    .titulo {
-        font-size: 20px;
-	button{
-    min-width: 200px;
-    min-height: 150px;
-}
-    h3 {
-        margin-right: 20px;
-    }
-}
-
-
     input{
     margin-left: 10px;
     background: transparent;
@@ -86,3 +71,19 @@ input::placeholder{
     font-size: 1.2rem;
     color: #222;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .titulo {
+        font-size: 20px;
+	button{
+    min-width: 200px;
+    min-height: 150px;
+}
+    h3 {
+        margin-right: 20px;
+    }
+}
+
+
+
