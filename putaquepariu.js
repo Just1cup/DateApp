@@ -33,8 +33,14 @@ const lose = () => {
 
 const isWin = () => {
     const win = document.querySelector('.win');
-        win.textContent = 'aceito'; 
-        win.style.cursor = 'pointer'
+    const btn = document.querySelector('.btn-2')
+        
+        btn.addEventListener('click', () => {
+            win.textContent = 'aceito'; 
+            win.style.cursor = 'pointer'
+        })
+
+
         win.addEventListener('click', () => {
             window.alert('Parabéns! Agora sou todinho seu, [Nome da pessoa].');
            location.reload();
