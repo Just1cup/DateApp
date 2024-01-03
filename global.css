@@ -1,4 +1,4 @@
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
@@ -34,14 +34,7 @@ body {
 }
 
 .invisivel {
-    cursor: pointer;
-    color: transparent;
-    transition: 0.5s;
-}
-
-.invisivel:hover {
-    color: #000;
-}
+	@@ -45,23 +45,25 @@ body {
 
 .moveScore {
     display: flex;
@@ -62,12 +55,22 @@ button {
     border-radius: 5px;
 }
 
-input::placeholder{
-    font-size: 1.2rem;
-    color: #222;
+
+
+@media only screen and (max-width: 768px) {
+    .titulo {
+        font-size: 20px;
+	button{
+    min-width: 200px;
+    min-height: 150px;
+}
+    h3 {
+        margin-right: 20px;
+    }
 }
 
-input{
+
+    input{
     margin-left: 10px;
     background: transparent;
     border: transparent;
@@ -77,4 +80,9 @@ input{
     height: 15vh; 
     font-size: 2rem;
     font-weight: 700;
+}
+
+input::placeholder{
+    font-size: 1.2rem;
+    color: #222;
 }
