@@ -3,9 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="background.css">
     <link rel="stylesheet" href="global.css">
     
@@ -21,7 +18,7 @@
     </header>
     
     <div class="container">
-        <h1 class="titulo"> Você <span class="win" onclick="isWin()">aceita</span> sair com [Escreva seu nome]? <span class="invisivel"> Então, tem que ganhar. </span></h1>
+        <h1 class="titulo"> Você <span class="win" onclick="isWin()">aceita</span> sair com <input type="text" placeholder="Escreva o nome da pessoa que te enviou isso"> <span class="invisivel"> Então, tem que ganhar. </span></h1>
         <div class="butoes">
             <button class="btn btn-1">Sim</button>
             <button class="btn btn-2" onclick="moveFunc(), playClickSound(0.01, 0.3)">Não</button>
