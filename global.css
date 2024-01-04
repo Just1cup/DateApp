@@ -87,7 +87,7 @@ input::placeholder {
 
     input{
         max-height: 8vh;
-        max-width: 12vw;
+        max-width: 22vw;
     }
 
 @media only screen and (max-width: 768px) {
