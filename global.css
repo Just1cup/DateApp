@@ -56,9 +56,10 @@ h3 {
 }
 
 button {
-    margin: 2vw; 
-    width: 40vw; 
-    max-width: 200px; 
+    margin: 2vw;
+    width: 40vw;
+    min-height: 5vh;
+    max-width: 200px;
     border-radius: 5px;
 }
 
@@ -85,8 +86,8 @@ input::placeholder {
     }
 
     button {
-        min-width: 200px;
-        min-height: 150px;
+        min-width: 50px;
+        min-height: 50px;
     }
 
     h3 {
