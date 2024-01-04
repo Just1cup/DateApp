@@ -63,32 +63,11 @@ button {
     border-radius: 5px;
 }
 
-input {
-    margin-left: 10px;
-    background: transparent;
-    border: transparent;
-    overflow: hidden;
-    color: #000;
-    width: fit-content;
-    height: 15vh; 
-    font-size: 2rem;
-    font-weight: 700;
-}
-
-input::placeholder {
-    font-size: 1.2rem;
-    color: #222;
-}
-
 @media only screen and (max-width: 500px) {
     .titulo {
         font-size: 10px;
     }
 
-    input{
-        max-height: 8vh;
-        max-width: 220px;
-    }
 
     input::placeholder {
     font-size: 12px;
